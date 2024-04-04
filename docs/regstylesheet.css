@@ -79,7 +79,7 @@ header {
 }
 .pagebuttontype::before{
     content: attr(cont);
-    content-visibility: auto;
+    content-visibility:hidden;
     position: absolute;
     background-color: #ffffff;
     width: 100% fit-content;
