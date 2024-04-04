@@ -1,1 +1,154 @@
-body { background-color: #26282C; background-image: url('BackgroundLayer.png'); background-attachment: fixed; background-size: cover; } .background-fudoato{ position: fixed; width: 100%; height: 100%; left: 0; top: 0; } footer { position: absolute; width: 99.7%; padding: 3px; left:0; bottom: 0; text-align: center; opacity: 60%; } p{ font-family: Arial, Helvetica, sans-serif; color: white; text-shadow:1px 1px 2px black; font-size: 120%; opacity: 75%; } .footertext { --opacity: 70%; font-size: 0.7vw; padding-left: 30px; } .socials { margin:auto; } header { z-index: 10000; position: fixed; padding-bottom: .7%; background-color: #00000000; left:0; top:0; width: 100%; color:white; background-color: #151618; box-shadow: 0px 5px 25px #191a1d; } .pagebar{ display: flex; font-size: 0.8vw; position: fixed; left: 65vw; top:.5vw; } .pagebartext{ padding: 1vw; } .fudoatologo { display:block; opacity: 50%; padding-left: 15%; padding-top: 1%; height:2%; width: 2%; } .headcontainer{ margin: auto; } .fudoatoTitle{ width: 80%; padding-left: 18px; } .titlecontainer{ padding-top: 10%; padding-left: 15%; width: 25%; } .fudoatosub{ font-size: 1vw; position: absolute; opacity: 35%; padding-bottom: 3%; top: 27%; left: 28.3%; text-align: right; } .barrier{ position: fixed; width: .25%; height: 15%; object-fit: fill; opacity: 65%; padding-left: 40%; top:17%; } .subtext{ position: fixed; font-size: 1.25vw; top: 19%; left:45%; width: 25%; } .pagebuttontype{ position:relative; font-family: Arial, Helvetica, sans-serif; color: rgb(206, 206, 206); text-shadow:1px 1px 2px black; font-size: 120%; opacity: 75%; top: .75vw; padding-left: .7vw; text-decoration: none; } .pagebuttontype:hover{ color: #ffffff; } .pagebuttontype::before{ content: attr(cont); content-visibility:auto; color:#00000000; position: absolute; background-color: #ffffff; width: 100% fit-content; height: 2px; bottom: 0; transition: transform 0.3s ease; transform: scaleX(0); } /* .pagebuttontype::before{ content: ""; position: absolute; background-color: #ffffff; width: 100%; height: 2px; left: 0; bottom: 0; transform: scaleX(0); transition: transform 0.3s ease; }*/ .pagebuttontype:hover::before { transform: scaleX(1); }
+body {
+    background-color: #26282C;
+    background-image: url('BackgroundLayer.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.background-fudoato {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+footer {
+    position: absolute;
+    width: 99.7%;
+    padding: 3px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: 60%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 120%;
+    opacity: 75%;
+}
+
+.footertext {
+    --opacity: 70%;
+    font-size: 0.7vw;
+    padding-left: 30px;
+}
+
+.socials {
+    margin: auto;
+}
+
+header {
+    z-index: 10000;
+    position: fixed;
+    padding-bottom: .7%;
+    background-color: #00000000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    background-color: #151618;
+    box-shadow: 0px 5px 25px #191a1d;
+}
+
+.pagebar {
+    display: flex;
+    font-size: 0.8vw;
+    position: fixed;
+    left: 65vw;
+    top: .5vw;
+}
+
+.pagebartext {
+    padding: 1vw;
+}
+
+.fudoatologo {
+    display: block;
+    opacity: 50%;
+    padding-left: 15%;
+    padding-top: 1%;
+    height: 2%;
+    width: 2%;
+}
+
+.headcontainer {
+    margin: auto;
+}
+
+.fudoatoTitle {
+    width: 80%;
+    padding-left: 18px;
+}
+
+.titlecontainer {
+    padding-top: 10%;
+    padding-left: 15%;
+    width: 25%;
+}
+
+.fudoatosub {
+    font-size: 1vw;
+    position: absolute;
+    opacity: 35%;
+    padding-bottom: 3%;
+    top: 27%;
+    left: 28.3%;
+    text-align: right;
+}
+
+.barrier {
+    position: fixed;
+    width: .25%;
+    height: 15%;
+    object-fit: fill;
+    opacity: 65%;
+    padding-left: 40%;
+    top: 17%;
+}
+
+.subtext {
+    position: fixed;
+    font-size: 1.25vw;
+    top: 19%;
+    left: 45%;
+    width: 25%;
+}
+
+.pagebuttontype {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 206, 206);
+    text-shadow: 1px 1px 2px black;
+    font-size: 120%;
+    opacity: 75%;
+    top: .75vw;
+    padding-left: .7vw;
+    text-decoration: none;
+}
+
+.pagebuttontype:hover {
+    color: #ffffff;
+}
+
+.pagebuttontype::before {
+    content: attr(cont);
+    content-visibility: auto;
+    color: #00000000;
+    position: absolute;
+    text-shadow:none;
+    background-color: #ffffff;
+    width: 100% fit-content;
+    height: 2px;
+    bottom: 0;
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+}
+
+/* .pagebuttontype::before{ content: ""; position: absolute; background-color: #ffffff; width: 100%; height: 2px; left: 0; bottom: 0; transform: scaleX(0); transition: transform 0.3s ease; }*/
+.pagebuttontype:hover::before {
+    transform: scaleX(1);
+}
